@@ -12,7 +12,7 @@ import java.time.Duration;
 public abstract class TestBaseBeforeAfter {
 
     protected WebDriver driver;
-    //protected Actions actions;
+    protected Actions actions;
 
     @Before
     public void setup() {
@@ -20,6 +20,7 @@ public abstract class TestBaseBeforeAfter {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        actions = new Actions(driver);
     }
     @After
     public void tearDown() {

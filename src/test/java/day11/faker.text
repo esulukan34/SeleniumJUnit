@@ -1,0 +1,15 @@
+// faker class'i kullanmak icin mvn repository.com adresinden java faker kütüphanesinin aratir
+
+// ve en cok kullanilani pom.xml dosyamiza ekleriz
+
+// ve faker class'indan bir obje olusturup email icin faker.internet methodunu kullanarak
+
+// emailAdress() methodunu seceriz
+
+// password icinde ayni internet methodunu kullaniriz
+
+// isim ve soyisimler icin faker.name() methodu ile firstname() ve lastname() methodunu kullaniriz
+
+// faker claas'ini kullanma amacimiz form dordurmamiz gereken sitelerde defalarca kendi üretecegimiz
+
+// veriler yerine bizim icin random veriler üretir ve isimizi kolaylastirir
