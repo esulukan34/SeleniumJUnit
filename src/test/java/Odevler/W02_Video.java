@@ -1,4 +1,4 @@
-package day11;
+package Odevler;
 
 import day10_utilities.TestBaseBeforeAfter;
 import org.junit.Test;

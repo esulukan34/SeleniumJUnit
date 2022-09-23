@@ -1,4 +1,4 @@
-package day11;
+package Odevler;
 
 import day10_utilities.TestBaseBeforeAfter;
 import org.junit.Test;
@@ -27,7 +27,7 @@ public class W01_KeybordActions extends TestBaseBeforeAfter {
         driver.switchTo().alert().accept();
         // “Click and hold" kutusuna basili tutun
         WebElement clickOnHold = driver.findElement(By.xpath("//*[@id='click-box']"));
-        actions.clickAndHold().perform();
+        actions.clickAndHold(clickOnHold).perform();
         // 7-“Click and hold" kutusunda cikan yaziyi yazdirin
         System.out.println(clickOnHold.getText());
         // 8- “Double click me" butonunu cift tiklayin
