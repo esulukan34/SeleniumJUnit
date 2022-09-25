@@ -1,4 +1,4 @@
-package day11;
+package day11_Faker;
 
 import com.github.javafaker.Faker;
 import day10_utilities.TestBaseBeforeAfter;

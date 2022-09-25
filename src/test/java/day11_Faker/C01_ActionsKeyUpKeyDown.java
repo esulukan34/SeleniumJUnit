@@ -1,4 +1,4 @@
-package day11;
+package day11_Faker;
 
 import day10_utilities.TestBaseBeforeAfter;
 import org.junit.Assert;
@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 public class C01_ActionsKeyUpKeyDown extends TestBaseBeforeAfter {
     // Bir Class olusturalim KeyboardActions1

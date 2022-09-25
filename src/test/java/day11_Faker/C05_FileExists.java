@@ -1,4 +1,4 @@
-package day11;
+package day11_Faker;
 
 import day10_utilities.TestBaseBeforeAfter;
 import org.junit.Assert;

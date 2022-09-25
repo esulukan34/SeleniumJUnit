@@ -11,6 +11,6 @@ public class Soru2 {
     7. 'Giriş' düğmesini tıklayın
     8. 'Kullanıcı adı olarak oturum açıldı' ifadesinin görünür olduğunu doğrulayın
     9. 'Hesabı Sil' düğmesini tıklayın
-    10. 'HESAP SİLİNDİ!' görünür
+    10. 'HESAP SİLİNDİ!' görünür oldugunu dogrulayin
      */
 }

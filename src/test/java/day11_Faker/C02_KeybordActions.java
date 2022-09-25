@@ -1,10 +1,9 @@
-package day11;
+package day11_Faker;
 
 import day10_utilities.TestBaseBeforeAfter;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
 
 public class C02_KeybordActions extends TestBaseBeforeAfter {
 
