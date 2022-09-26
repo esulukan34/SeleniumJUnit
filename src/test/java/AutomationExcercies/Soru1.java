@@ -18,11 +18,9 @@ public class Soru1 extends TestBaseBeforeAfter {
         //2. 'http://automationexercise.com' url'sine gidin
         driver.get("http://automationexercise.com");
         //3. Ana sayfanın başarıyla görünür olduğunu doğrulayın
-        WebElement anasayfa = driver.findElement(By.className("fa fa-home"));
-        Assert.assertTrue(anasayfa.isDisplayed());
 
         //4. 'Kayıt Ol / Giriş Yap' düğmesine tıklayın
-        driver.findElement(By.className("fa fa-lock")).click();
+
         //5. 'Yeni Kullanıcı Kaydı'nı doğrulayın! görünür
         //6. Adı ve e-posta adresini girin
         //7. 'Kaydol' düğmesini tıklayın
